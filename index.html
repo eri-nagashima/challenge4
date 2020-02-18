@@ -19,13 +19,21 @@
     addTitle();
 
     //クラス名を除去する
-    function removeTitle() {
+    /*function removeTitle() {
         const header1Title = document.getElementsByTagName('h1');
         for (let h1 of header1Title) {
             h1.classList.remove('added_title');
         }
     }
-    removeTitle();
+    removeTitle();*/
+    function removeClass() {
+        const pClass = document.getElementsByTagName('p');
+        for (let p of pClass) {
+            p.classList.remove('paragraph');
+        }
+    }
+    removeClass();
+
 </script>
 </body>
 </html>
